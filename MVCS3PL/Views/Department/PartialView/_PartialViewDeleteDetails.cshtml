@@ -1,0 +1,19 @@
+﻿@model DepartmentViewModel
+@*Code*@
+<div class="form-group">
+    <label class="col-form-label " asp-for="Code"></label>
+    <input asp-for="Code" class="form-control" readonly />
+    <span asp-validation-for="Code" class="text-danger"></span>
+</div>
+@*Name*@
+<div class="form-group">
+    <label class="col-form-label " asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" readonly />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+@*CreateOfDate*@
+<div class="form-group">
+    <label class="col-form-label " asp-for="CreateOfDate"></label>
+    <input asp-for="CreateOfDate" class="form-control" readonly />
+    <span asp-validation-for="CreateOfDate" class="text-danger"></span>
+</div>
